@@ -5,46 +5,52 @@ body {
   background: #fff;
   font-family: 'Inter', sans-serif;
 }
+
 header {
   padding: 0 35px;
   display: flex;
   justify-content: right;
   align-items: right;
 }
+
 h1 {
   font-style: normal;
   font-family: 'Inter', sans-serif;
   font-size: 40px;
-  color: #172B4D;
+  color: #172b4d;
   line-height: 52px;
   text-align: center;
   margin-top: 1.5em;
   margin-left: 27px;
-  }
-  h1 span {
-    color: #36b37f;
-  }
+}
+
+h1 span {
+  color: #36b37f;
+}
+
 .headline {
-    background: url(./images/headline-background.svg) no-repeat;
-    display: flex;
-    flex-direction: column;
-    background-size: 100% 100%;
-    align-items: center;
-    text-align: center;
-  }
-  .icons {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  ul {
-    list-style: none;
-  }
-  
-  li {
-    margin: 0 8px;
-  }
-  
+  background: url(./images/headline-background.svg) no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.icons {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0 8px;
+}
+
 .headline p {
   font-style: normal;
   font-weight: normal;
