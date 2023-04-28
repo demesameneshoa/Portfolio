@@ -1,6 +1,6 @@
 <div>
 
-  <h3><b>Hello Microverse Project</b></h3>
+  <h3><b>Portfolio Project</b></h3>
 
 </div>
 
@@ -25,13 +25,13 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 <a name="about-project">Hello Microverse project</a>
+# 📖 <a name="about-project">Portfolio Project</a>
 
 
-**[Hello Microverse]** is a simple HTML and CSS project with Linters to demonstrate HTML,CSS and GitHub Knowledge
+**[Portfolio Project]** is a simple HTML and CSS project with Flex to demonstrate HTML,CSS, Flexbox and GitHub Knowledge
 
 ## 🛠 Built With <a name="built-with"></a>
-HTML and CSS
+HTML,CSS and Flexbox
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -41,7 +41,9 @@ HTML and CSS
 <details>
   <summary>CSS</summary>
 </details>
-
+<details>
+  <summary>Flexbox</summary>
+</details>
 <details>
 <summary>Visual Code IDE</summary>
 </details>
@@ -50,9 +52,9 @@ HTML and CSS
 
 ### Key Features <a name="key-features"></a>
 
-- **[Linters Embeded]**
-- **[Header Updated]**
-- **[External CSS Linked]**
+- **[Mobile First]**
+- **[Flexbox Headers]**
+- **[Linters Tested]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,9 +102,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] New Header Added
-- [ ] Git Ignore file edited
-- [ ] Linter Running Smoothly
+- [ ] Projects List
+- [ ] Popup Menu
+- [ ] Desktop Version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +113,6 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,6 +131,6 @@ I would like to thank everyone at Miroverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed. 
+This project is [MIT](./MIT.md) licensed. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
