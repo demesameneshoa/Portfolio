@@ -19,13 +19,14 @@ h1 {
   font-family: 'Inter', sans-serif;
   font-size: 40px;
   color: #172b4d;
-  line-height: 52px;
+  line-height: 44px;
   text-align: center;
   margin-top: 1.5em;
+  margin-bottom: 0em;
   margin-left: 27px;
 }
 
-h1 span {
+span{
   color: #36b37f;
 }
 
@@ -60,5 +61,5 @@ li {
   color: #172b4d;
   font-size: 20px;
   line-height: 28px;
-  margin: 2em 24px;
+  margin: 1.5em 25px;
 }
