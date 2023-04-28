@@ -34,7 +34,7 @@ span {
   background: url(./images/headline-background.svg) no-repeat;
   display: flex;
   flex-direction: column;
-  background-size: 100% 100%;
+  background-size: 112% 112%;
   align-items: center;
   text-align: center;
 }
