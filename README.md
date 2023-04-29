@@ -1,7 +1,6 @@
-<div>
-
-  <h3><b>Portfolio Project</b></h3>
-
+<div align="center">
+ <img src="mylogo.png" alt="logo" width="140"  height="auto" />
+  <h3><b>Portfolio Project Mobile Version</b></h3>
 </div>
 
 
@@ -25,10 +24,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 <a name="about-project">Portfolio Project</a>
+# 📖 <a name="about-project">Portfolio Project Mobile Version</a>
 
 
-**[Portfolio Project]** is a simple HTML and CSS project with Flex to demonstrate HTML,CSS, Flexbox and GitHub Knowledge
+**[Portfolio Project Mobile Verion]** is a simple HTML and CSS project with Flex to demonstrate HTML,CSS, Flexbox and GitHub Knowledge
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML,CSS and Flexbox
@@ -52,9 +51,9 @@ HTML,CSS and Flexbox
 
 ### Key Features <a name="key-features"></a>
 
-- **[Mobile First]**
-- **[Flexbox Headers]**
-- **[Linters Tested]**
+- **[Flexbox Headers Section]**
+- **[My Recent Works Section]**
+- **[Languages, Skills and Frameworks Section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +101,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Projects List
+- [ ] Contact Me Form
 - [ ] Popup Menu
 - [ ] Desktop Version
 
@@ -118,7 +117,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project Please Rate
+If you like this project Please Rate IT!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
