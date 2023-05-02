@@ -204,6 +204,8 @@ button:active {
   margin-top: 2em;
   background: url(./images/containerbg1.svg) no-repeat 100% 0%, url(./images/containerbg2.svg) no-repeat 0 300px;
   padding: 2em;
+  margin-bottom: 0.1em;
+  padding-bottom: 0.1em;
 }
 
 .about-me p {
@@ -257,4 +259,23 @@ button:active {
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.1em;
+  padding-top: 0.1em;
+}
+
+.contact-header {
+  margin-top: 0.1em;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  font-style: normal;
+  color: #172b4d;
+  width: 90%;
 }
