@@ -279,3 +279,34 @@ button:active {
   color: #172b4d;
   width: 90%;
 }
+
+.contact-form-container {
+  background-color: red;
+
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  background-color: blue;
+  
+  padding: 0;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.contact-form input textarea {
+  width: 20px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+.FormButton {
+  width: 105px;
+  height: 24px;
+}
