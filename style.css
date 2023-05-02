@@ -342,3 +342,14 @@ input[type=submit]:hover{
 input[type=submit]:active{
   background-color: #008552;
 }
+
+.email-contact {
+  
+  width: 381px;
+
+  color: #42526e;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
