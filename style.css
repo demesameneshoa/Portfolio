@@ -202,8 +202,8 @@ button:active {
   align-items: center;
   text-align: center;
   margin-top: 2em;
-  background: url(./images/containerbg1.svg) no-repeat 100% 0%, url(./images/containerbg2.svg) no-repeat 0 300px;
-  padding: 2em;
+  background: url(./images/containerbg1.svg) no-repeat 100% 0%, url(./images/containerbg2.svg) no-repeat 0 360px;
+  padding: 1.5em;
   margin-bottom: 0.1em;
   padding-bottom: 0.1em;
 }
@@ -216,7 +216,7 @@ button:active {
 }
 
 .container-aboutme {
-  width: 90%;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -268,7 +268,7 @@ button:active {
   text-align: center;
   margin-top: 0.1em;
   padding-top: 0.1em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   background: url(./images/contact-bg.svg) no-repeat 100% 94%;
 }
 
@@ -356,7 +356,7 @@ input[type=submit]:active {
 .contact-section::after {
   content: '';
   height: 4px;
-  width: 150px;
+  width: 30%;
   margin: 0 auto;
   display: block;
   position: relative;
