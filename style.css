@@ -268,7 +268,8 @@ button:active {
   text-align: center;
   margin-top: 0.1em;
   padding-top: 0.1em;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
+  background: url(./images/contact-bg.svg) no-repeat 100% 94%;
 }
 
 .contact-header {
@@ -282,11 +283,10 @@ button:active {
 }
 
 .contact-header h2 {
-margin-top: 0.1em;
-} 
+  margin-top: 0.1em;
+}
 
 .contact-form-container {
-
   margin: 0;
   padding: 0;
   width: 90%;
@@ -295,22 +295,24 @@ margin-top: 0.1em;
 }
 
 .contact-form {
-  
   padding: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.2em;
+  gap: 1.1em;
 }
 
-.full-name,.email-address {
+.full-name,
+.email-address {
   height: 48px;
   border: 1px solid #d0d9d4;
   font-style: italic;
   line-height: 24px;
   font-size: 15px;
   padding: 1em;
+  color: #6b778c;
 }
+
 .message {
   height: 114px;
   border: 1px solid #d0d9d4;
@@ -318,11 +320,11 @@ margin-top: 0.1em;
   font-size: 15px;
   font-style: normal;
   line-height: 24px;
-  color: 42526e;
   padding: 0.8em;
+  color: #42526e;
 }
 
-input[type=submit]{
+input[type=submit] {
   align-self: center;
   width: 129px;
   height: 48px;
@@ -335,21 +337,31 @@ input[type=submit]{
   border-radius: 4px;
 }
 
-input[type=submit]:hover{
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+input[type=submit]:hover {
+  box-shadow: 0.1px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
-input[type=submit]:active{
+input[type=submit]:active {
   background-color: #008552;
 }
 
 .email-contact {
-  
-  width: 381px;
-
   color: #42526e;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.contact-section::after {
+  content: '';
+  height: 4px;
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 1em;
+  z-index: -1;
+  background: #172b4d;
+  border-radius: 8px;
 }
