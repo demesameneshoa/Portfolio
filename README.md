@@ -3,7 +3,6 @@
   <h3><b>Portfolio Project Mobile Version</b></h3>
 </div>
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -26,11 +25,12 @@
 
 # 📖 <a name="about-project">Portfolio Project Mobile Version</a>
 
-
 **[Portfolio Project Mobile Verion]** is a simple HTML and CSS project with Flex to demonstrate HTML,CSS, Flexbox and GitHub Knowledge
 
 ## 🛠 Built With <a name="built-with"></a>
+
 HTML,CSS and Flexbox
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -54,6 +54,7 @@ HTML,CSS and Flexbox
 - **[Flexbox Headers Section]**
 - **[My Recent Works Section]**
 - **[Languages, Skills and Frameworks Section]**
+- **[Contact form and footer Section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,11 +71,9 @@ A web browser installed
 
 Clone this repository to your desired folder:
 
-
 ### Install
 
 No installation Required
-
 
 ### Usage
 
@@ -98,20 +97,16 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Contact Me Form
 - [ ] Popup Menu
 - [ ] Desktop Version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +116,6 @@ If you like this project Please Rate IT!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank everyone at Miroverse
@@ -130,6 +124,6 @@ I would like to thank everyone at Miroverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed. 
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
