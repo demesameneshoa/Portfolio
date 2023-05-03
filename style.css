@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 body {
   margin: 0;
   display: block;
@@ -5,21 +7,46 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-header {
+.mobile-nav {
   display: flex;
   justify-content: right;
   align-items: right;
   min-width: 100%;
 }
 
-nav {
+.desktop-nav {
+  align-items: center;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.desktop-nav-a {
+  align-content: center;
+  text-align: center;
+  margin: 30px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
+.hamburger {
   margin-top: 1em;
   margin-right: 2em;
 }
 
 h1 {
   font-style: normal;
-  font-family: 'Inter', sans-serif;
   font-size: 40px;
   color: #172b4d;
   line-height: 44px;
@@ -125,7 +152,6 @@ h2 {
 }
 
 .work-title {
-  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.5em;
@@ -156,7 +182,6 @@ h2 {
 
 .myworks-card > .work-languages > li {
   background: #ebf0ee;
-  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 600;
   padding: 0.5em;
@@ -355,15 +380,17 @@ input[type=submit]:active {
   line-height: 30px;
 }
 
-.contact-section::after {
-  content: '';
-  height: 4px;
-  width: 30%;
-  margin: 0 auto;
-  display: block;
-  position: relative;
-  top: 1em;
-  z-index: -1;
-  background: #172b4d;
-  border-radius: 8px;
+@media (max-width: 780px) {
+  .contact-section::after {
+    content: '';
+    height: 4px;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 1em;
+    z-index: -1;
+    background: #172b4d;
+    border-radius: 8px;
+  }
 }
