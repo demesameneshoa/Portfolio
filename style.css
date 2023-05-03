@@ -202,8 +202,10 @@ button:active {
   align-items: center;
   text-align: center;
   margin-top: 2em;
-  background: url(./images/containerbg1.svg) no-repeat 100% 0%, url(./images/containerbg2.svg) no-repeat 0 300px;
-  padding: 2em;
+  background: url(./images/containerbg1.svg) no-repeat 100% 0%, url(./images/containerbg2.svg) no-repeat 0 360px;
+  padding: 1.5em;
+  margin-bottom: 0.1em;
+  padding-bottom: 0.1em;
 }
 
 .about-me p {
@@ -214,7 +216,7 @@ button:active {
 }
 
 .container-aboutme {
-  width: 90%;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -257,4 +259,111 @@ button:active {
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 0.1em;
+  padding-top: 0.1em;
+  padding-bottom: 2em;
+  background: url(./images/contact-bg.svg) no-repeat 100% 94%;
+}
+
+.contact-header {
+  margin-top: 0.1em;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  font-style: normal;
+  color: #172b4d;
+  width: 90%;
+}
+
+.contact-header h2 {
+  margin-top: 0.1em;
+}
+
+.contact-form-container {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.full-name,
+.email-address {
+  height: 33px;
+  border: 1px solid #d0d9d4;
+  font-style: italic;
+  line-height: 24px;
+  font-size: 15px;
+  padding: 15px 16px;
+  color: #6b778c;
+  border-radius: 4px;
+}
+
+.message {
+  height: 103px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 12px;
+  color: #42526e;
+}
+
+input[type=submit] {
+  align-self: center;
+  width: 129px;
+  height: 48px;
+  background-color: #36b37f;
+  color: white;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0.1px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+input[type=submit]:active {
+  background-color: #008552;
+}
+
+.email-contact {
+  color: #42526e;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.contact-section::after {
+  content: '';
+  height: 4px;
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 1em;
+  z-index: -1;
+  background: #172b4d;
+  border-radius: 8px;
 }
