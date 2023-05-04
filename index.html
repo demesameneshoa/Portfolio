@@ -20,8 +20,12 @@
     </header>
 <section class="headline">
         <div class="headline-header">
-		<h1>
+		<h1 class="mobile-headline">
 			Hey there.<br/>I'm Demes.<br/>
+            <span class="header_green">I’m a software developer</span>
+		</h1>
+        <h1 class="desktop-headline">
+			Hey there. I'm Demes.<br/>
             <span class="header_green">I’m a software developer</span>
 		</h1>
     </div>
@@ -69,9 +73,11 @@
 </section>
 <section class="works" >
     <div class="recent-works">
-        <h2>My Recent </br> Works</h2>
+        <h2 class="mobile-work-header">My Recent </br> Works</h2>
+        <h2 class="desktop-work-header">My Recent Works</h2>
     </div>
-    <div class="myworks-card">
+    <div class="myworks-wrapper">
+        <div class="myworks-card">
         <div class="myworks-thumbnail">
             <img  alt="">
             <h2 class="work-title">Multi-Post Stories Gain+Glory</h2>
@@ -83,8 +89,34 @@
             </ul>
             <button type="button" > See Project</button>
         </div>
-    </div>
-    <div class="myworks-card">
+        </div>
+        <div class="myworks-card">
+        <div class="myworks-thumbnail">
+            <img  alt="">
+            <h2 class="work-title">Multi-Post Stories Gain+Glory</h2>
+            <ul class="work-languages" >
+                <li>Ruby on Rails</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+            </ul>
+            <button type="button" > See Project</button>
+        </div> 
+        </div>
+        <div class="myworks-card">
+        <div class="myworks-thumbnail">
+            <img  alt="">
+            <h2 class="work-title">Multi-Post Stories Gain+Glory</h2>
+            <ul class="work-languages" >
+                <li>Ruby on Rails</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+            </ul>
+            <button type="button" > See Project</button>
+        </div> 
+        </div>
+        <div class="myworks-card">
         <div class="myworks-thumbnail">
             <img  alt="">
             <h2 class="work-title">Multi-Post Stories Gain+Glory</h2>
@@ -123,31 +155,6 @@
             <button type="button" > See Project</button>
         </div> 
     </div>
-    <div class="myworks-card">
-        <div class="myworks-thumbnail">
-            <img  alt="">
-            <h2 class="work-title">Multi-Post Stories Gain+Glory</h2>
-            <ul class="work-languages" >
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-            </ul>
-            <button type="button" > See Project</button>
-        </div> 
-    </div>
-    <div class="myworks-card">
-        <div class="myworks-thumbnail">
-            <img  alt="">
-            <h2 class="work-title">Multi-Post Stories Gain+Glory</h2>
-            <ul class="work-languages" >
-                <li>Ruby on Rails</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-            </ul>
-            <button type="button" > See Project</button>
-        </div> 
     </div>
 </section>
 <section class="about-me">
@@ -161,8 +168,7 @@
         <button type="button" >Get My Resume</button>
     </div>
     <div class="attributes-and-skills">
-        <ul class="my-attributes">
-            <li>
+        <div class="my-attributes">
                 <div class="attribute">
                     <div class="attribute-image">
                         <img src="./images/icons/languages-icon.svg" alt="Languages icon">
@@ -175,8 +181,6 @@
 						<li>CSS</li>
 					</ul>
                 </div>
-            </li>
-            <li>
                 <div class="attribute">
                     <div class="attribute-image">
                         <img src="./images/icons/frameworks-icon.svg" alt="Frameworks icon">
@@ -190,8 +194,6 @@
                         <li>Selenium</li>
 					</ul>
                 </div>
-            </li>
-            <li>
                 <div class="attribute">
                     <div class="attribute-image">
                         <img src="./images/icons/skills-icon.svg" alt="Skills icon">
@@ -205,11 +207,10 @@
                         <li>API Design</li>
 					</ul>
                 </div>
-            </li>
-        </ul>
     </div>
 </section>
 <section class="contact-section">
+    <div class="contact-wrapper">
     <div class="contact-header">
         <h2>
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -217,7 +218,6 @@
     </div>
     <div class="contact-form-container">
         <form action="https://formspree.io/f/mrgvjkeo" method="post" class="contact-form">
-            
             <input name="name" type="text" class="full-name" placeholder="Full name" maxlength="30" required>
             <input name="email-address" type="email" class="email-address" placeholder="Email address" required>
             <textarea name="message" class="message" placeholder="Hey I would like to connect to..." maxlength="500" required></textarea>
@@ -225,6 +225,7 @@
             
         </form>
     </div>
+</div>
     <div class="page-footer">
         <div class="email-contact">
         <p>demesameneshoa@gmail.com</p>
