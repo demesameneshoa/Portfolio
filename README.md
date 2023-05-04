@@ -55,6 +55,8 @@ HTML,CSS and Flexbox
 - **[My Recent Works Section]**
 - **[Languages, Skills and Frameworks Section]**
 - **[Contact form and footer Section]**
+- **[Desktop Version]**
+- **[Responsive web design applied]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +102,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Popup Menu
-- [ ] Desktop Version
+- [ ] Animations and Interactions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
