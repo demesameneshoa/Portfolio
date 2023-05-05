@@ -89,6 +89,35 @@ h2 {
   color: #172b4d;
 }
 
+.myworks-thumbnail {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.myworks-thumbnail img {
+  width: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  background-color: #d0d9d4;
+  border-radius: 2px;
+}
+
+.readmore-button img:hover {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .recent-works {
   text-align: center;
   margin-bottom: 3em;
@@ -113,21 +142,6 @@ h2 {
   height: 474px;
   border: 1px lightgray solid;
   border-radius: 5px;
-}
-
-.myworks-thumbnail {
-  grid-column: 1/-1;
-  grid-row: 2/3;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
-.myworks-thumbnail img {
-  width: 100%;
-  min-height: 220px;
-  object-fit: cover;
-  background-color: #d0d9d4;
-  border-radius: 2px;
 }
 
 .work-title {
