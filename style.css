@@ -61,6 +61,7 @@ span {
   padding: 0;
   display: flex;
   justify-content: center;
+  align-items: baseline;
   min-width: 100%;
 }
 
@@ -369,7 +370,7 @@ input[type=submit]:active {
 }
 
 @media (max-width: 780px) {
-  .social-media-footer:after {
+  .social-media-footer::after {
     content: '';
     height: 4px;
     width: 30%;
@@ -443,7 +444,7 @@ input[type=submit]:active {
 
   .myworks-wrapper {
     display: grid;
-    grid-template-columns:auto auto auto;
+    grid-template-columns: auto auto auto;
     column-gap: 24px;
     grid-template-rows: auto auto;
     justify-content: center;
@@ -486,7 +487,6 @@ input[type=submit]:active {
   .contact-section {
     background: url(/images/contct-form-desktop-bg1.svg) no-repeat 0% 87%, url(/images/contct-form-desktop-bg2.svg) no-repeat 28% 92%, url(/images/contct-form-desktop-bg3.svg) no-repeat 100% 88%;
     padding-bottom: 15em;
-    
   }
 
   .contact-wrapper {
@@ -496,13 +496,13 @@ input[type=submit]:active {
     margin-right: 4em;
   }
 
-  .contact-header{
-    margin: auto;  
+  .contact-header {
+    margin: auto auto;
     padding-left: 2em;
     width: 65%;
   }
 
-  .contact-header h2{
+  .contact-header h2 {
     font-size: 30px;
     line-height: 40px;
     text-align: justify;
@@ -518,12 +518,13 @@ input[type=submit]:active {
 
   .social-media-footer {
     border-top: black;
-    border-top:1px solid rgb(196, 187, 187);
+    border-top: 1px solid rgb(196, 187, 187);
   }
 
   input[type=submit] {
     align-self: self-start;
   }
+
   .myworks-card {
     width: 327px;
     height: 474px;
