@@ -265,8 +265,13 @@ button:active {
   margin-bottom: 2em;
   margin-left: 1em;
   background: #ebf0ee;
+  transition: background-color 1s linear;
   width: 90%;
   height: 360px;
+}
+
+.attribute:hover {
+  background-color: #36b37f;
 }
 
 .attribute-image {
