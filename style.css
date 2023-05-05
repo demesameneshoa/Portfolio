@@ -89,6 +89,35 @@ h2 {
   color: #172b4d;
 }
 
+.myworks-thumbnail {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.myworks-thumbnail img {
+  width: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  background-color: #d0d9d4;
+  border-radius: 2px;
+}
+
+.readmore-button img:hover {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .recent-works {
   text-align: center;
   margin-bottom: 3em;
@@ -113,21 +142,6 @@ h2 {
   height: 474px;
   border: 1px lightgray solid;
   border-radius: 5px;
-}
-
-.myworks-thumbnail {
-  grid-column: 1/-1;
-  grid-row: 2/3;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
-.myworks-thumbnail img {
-  width: 100%;
-  min-height: 220px;
-  object-fit: cover;
-  background-color: #d0d9d4;
-  border-radius: 2px;
 }
 
 .work-title {
@@ -251,8 +265,13 @@ button:active {
   margin-bottom: 2em;
   margin-left: 1em;
   background: #ebf0ee;
+  transition: background-color 1s linear;
   width: 90%;
   height: 360px;
+}
+
+.attribute:hover {
+  background-color: #36b37f;
 }
 
 .attribute-image {
@@ -351,10 +370,14 @@ input[type=submit] {
   font-weight: 500;
   border: none;
   border-radius: 4px;
+  transition: width 2s, height 2s, transform 2s;
 }
 
 input[type=submit]:hover {
   box-shadow: 0.1px 8px 16px rgba(54, 179, 127, 0.24);
+  width: 100px;
+  height: 100px;
+  transform: rotate(359deg);
 }
 
 input[type=submit]:active {
