@@ -153,9 +153,10 @@ h2 {
   color: #36b37e;
   font-size: 12px;
   font-weight: 600;
-  padding: 1em 0.5em;
-  margin: 1em 0.5em;
+  padding: 12px;
+  margin: 0.4em 0.4em;
   border-radius: 5px;
+  align-self: center;
 }
 
 .myworks-card > .work-languages > li {
@@ -236,25 +237,28 @@ button:active {
   align-items: center;
   padding-left: 1em;
   padding-right: 1em;
+  margin-top: 2.5em;
 }
 
 .attribute {
   display: flex;
   flex-direction: column;
   border: 1px lightgray solid;
+  padding-top: 1em;
   padding-left: 0.1em;
   border-radius: 5px;
   margin-bottom: 2em;
   margin-left: 1em;
   background: #ebf0ee;
   width: 90%;
-  height: 352px;
+  height: 360px;
 }
 
 .attribute-image {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 1em;
 }
 
 .attribute-name {
@@ -266,7 +270,7 @@ button:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
+  width: 100%;
 }
 
 .contact-section {
@@ -365,7 +369,7 @@ input[type=submit]:active {
 }
 
 @media (max-width: 780px) {
-  .contact-section::after {
+  .social-media-footer:after {
     content: '';
     height: 4px;
     width: 30%;
@@ -439,13 +443,12 @@ input[type=submit]:active {
 
   .myworks-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:auto auto auto;
+    column-gap: 24px;
     grid-template-rows: auto auto;
     justify-content: center;
     align-items: center;
-    width: 75%;
-    margin-left: 8em;
-    margin-right: 8em;
+    width: 100%;
   }
 
   .container-aboutme {
@@ -465,9 +468,14 @@ input[type=submit]:active {
     column-gap: 24px;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    margin-left: 8em;
-    margin-right: 8em;
+    width: 100%;
+    margin-left: 9em;
+    margin-right: 9em;
+    margin-top: 4em;
+  }
+
+  .attribute {
+    width: 100%;
   }
 
   .attributes-and-skills {
@@ -477,12 +485,31 @@ input[type=submit]:active {
 
   .contact-section {
     background: url(/images/contct-form-desktop-bg1.svg) no-repeat 0% 87%, url(/images/contct-form-desktop-bg2.svg) no-repeat 28% 92%, url(/images/contct-form-desktop-bg3.svg) no-repeat 100% 88%;
-    padding-bottom: 0.2em;
+    padding-bottom: 15em;
+    
   }
 
   .contact-wrapper {
     display: flex;
     flex-direction: row;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  .contact-header{
+    margin: auto;  
+    padding-left: 2em;
+    width: 65%;
+  }
+
+  .contact-header h2{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+  }
+
+  .contact-form-container {
+    margin-right: 2em;
   }
 
   .email-contact {
@@ -490,13 +517,13 @@ input[type=submit]:active {
   }
 
   .social-media-footer {
-    margin-top: 14em;
+    border-top: black;
+    border-top:1px solid rgb(196, 187, 187);
   }
 
   input[type=submit] {
     align-self: self-start;
   }
-
   .myworks-card {
     width: 327px;
     height: 474px;
