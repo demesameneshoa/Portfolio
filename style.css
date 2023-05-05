@@ -370,10 +370,14 @@ input[type=submit] {
   font-weight: 500;
   border: none;
   border-radius: 4px;
+  transition: width 2s, height 2s, transform 2s;
 }
 
 input[type=submit]:hover {
   box-shadow: 0.1px 8px 16px rgba(54, 179, 127, 0.24);
+  width: 100px;
+  height: 100px;
+  transform: rotate(359deg);
 }
 
 input[type=submit]:active {
