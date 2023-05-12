@@ -10,6 +10,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Project Outline](#project-outline)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -63,7 +64,13 @@ HTML,CSS and Flexbox
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://demesameneshoa.github.io/Portfolio/
+<p>For Live demo click
+<a href="https://demesameneshoa.github.io/Portfolio/"> here </a></p>
+
+## Project Outline Video <a name="project-outline"></a>
+
+<p>To watch my project outline video click  
+<a href="https://www.loom.com/share/5b199c9b3e9249af901fc61e9326c932"> here </a></p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
