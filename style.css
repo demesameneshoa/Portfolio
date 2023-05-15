@@ -8,7 +8,7 @@ body {
 }
 
 a {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .mobile-nav {
@@ -26,17 +26,20 @@ a {
   background-color: transparent;
 }
 
-a.link-my-works, a.link-about-me, a.link-contact-me {
- text-decoration: none;
- color: #3a4a42;
- font-size: 32px;
- font-weight: 600;
- font-family: 'Inter',sans-serif;
+a.link-my-works,
+a.link-about-me,
+a.link-contact-me {
+  text-decoration: none;
+  color: #3a4a42;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
 }
 
 .nav-mobile.hidden {
-  display: none; 
+  display: none;
 }
+
 .desktop-nav {
   align-items: center;
   text-align: center;
@@ -456,13 +459,12 @@ input[type=submit]:active {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  
+
   .mob-nav-menu {
     position: absolute;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    right: 0;
+    top: 0;
+    bottom: 0;
     left: -200%;
     margin-top: 50px;
     padding-top: 1.5em;
@@ -477,7 +479,7 @@ input[type=submit]:active {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     mix-blend-mode: normal;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
   .mob-nav-item {
@@ -531,9 +533,11 @@ input[type=submit]:active {
   .hamburger {
     display: none;
   }
+
   .mob-nav-menu {
     display: none;
   }
+
   .headline {
     background-image: url(images/Header-llustration-desktop.svg);
     background-size: 100vw;
