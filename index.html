@@ -10,12 +10,30 @@
 <body>
     <header>
         <nav class="mobile-nav">
-            <img src="./images/menu.svg" alt="menu" class="hamburger">
+            <!--<img src="./images/menu.svg" alt="menu" class="hamburger">-->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            <ul class="mob-nav-menu">
+                <li class="mob-nav-item">
+                  <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="mob-nav-item">
+                  <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="mob-nav-item">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
         </nav>
         <nav class="desktop-nav">
-            <a><img src="images/icons/portfoliomenu.svg" alt=""> </a> 
-            <a> <img src="images/icons/about menu.svg" alt=""> </a> 
-            <a> <img src="images/icons/contactmenu.svg" alt=""> </a> 
+           <ul class="desktop-nav-menu">
+            <li><a href="#portfolio">Portfolio</a> </li>
+            <li> <a href="#about"> About</a> </li>
+           <li><a href="#contact">Contact </a> </li>
+           </ul>
         </nav>
     </header>
 <section class="headline">
@@ -71,7 +89,7 @@
     </a>
 </div>
 </section>
-<section class="works" >
+<section class="works" id="portfolio" >
     <div class="recent-works">
         <h2 class="mobile-work-header">My Recent </br> Works</h2>
         <h2 class="desktop-work-header">My Recent Works</h2>
@@ -157,7 +175,7 @@
     </div>
     </div>
 </section>
-<section class="about-me">
+<section class="about-me" id="about">
     <div class="container-aboutme">
         <h2>About me</h2>
         <div class="aboutme-details">
@@ -209,7 +227,7 @@
                 </div>
     </div>
 </section>
-<section class="contact-section">
+<section class="contact-section" id="contact">
     <div class="contact-wrapper">
     <div class="contact-header">
         <h2>
@@ -260,6 +278,7 @@
         </li>
     </ul>
 </div>
+<script src="script.js"></script>
 
 </body>
 </html>
