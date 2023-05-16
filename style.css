@@ -41,14 +41,23 @@ a.link-contact-me {
 }
 
 .desktop-nav {
+  display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 16px;
+  justify-content: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
 
-.desktop-nav-a {
-  align-content: center;
-  text-align: center;
+ul {
+  list-style: none;
+  padding-left: 0.1px;
+}
+
+.desktop-nav ul {
+  display: flex;
+  flex-direction: row;
   margin: 30px 30px;
   text-decoration: none;
   font-size: 17px;
@@ -114,11 +123,6 @@ span {
   justify-content: center;
   align-items: baseline;
   min-width: 100%;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0.1px;
 }
 
 li {
