@@ -38,9 +38,11 @@ HTML,CSS and Flexbox
 <details>
   <summary>HTML</summary>
 </details>
-
 <details>
   <summary>CSS</summary>
+</details>
+<details>
+  <summary>JavaScript</summary>
 </details>
 <details>
   <summary>Flexbox</summary>
@@ -59,6 +61,7 @@ HTML,CSS and Flexbox
 - **[Contact form and footer Section]**
 - **[Desktop Version]**
 - **[Responsive web design applied]**
+- **[Mobile menu added]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,13 +116,12 @@ You can deploy this project using:
 
 - GitHub: [@githubhandle](https://github.com/Salarhabibi-amir)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Popup Menu
-- [ ] Animations and Interactions
+- [ ] Project Popup
+- [ ] Form Validation with JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
