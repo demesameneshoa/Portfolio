@@ -15,7 +15,7 @@ const myWorksdetail = [
     id: 0,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -30,7 +30,7 @@ const myWorksdetail = [
     id: 1,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -45,7 +45,7 @@ const myWorksdetail = [
     id: 2,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -60,7 +60,7 @@ const myWorksdetail = [
     id: 3,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -75,7 +75,7 @@ const myWorksdetail = [
     id: 4,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -90,7 +90,7 @@ const myWorksdetail = [
     id: 5,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -142,7 +142,6 @@ const popupDiv = (index) => `
               <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt1}</li>
               <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt2}</li>
               <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt3}</li>
-          <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt4}</li>
           </ul>
           <p class="work-discription-mobile">
         ${myWorksdetail[index].desc}

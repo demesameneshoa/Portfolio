@@ -505,11 +505,15 @@ input[type=submit]:active {
   justify-content: flex-start;
 }
 
+li.tag-mobile {
+  margin-bottom: 1px;
+}
+
 .tag-mobile {
   background: #ebf0ee;
   color: #3a4a42;
-  padding: 0.5em 0.75em 0.5em;
-  font-family: Inter, sans-serif;
+  padding: 1em 1em;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 0.75em;
@@ -541,7 +545,7 @@ input[type=submit]:active {
   border: none;
   width: fit-content;
   align-self: center;
-  background: #0e5a3b;
+  background: #36b37f;
   font-weight: normal;
   font-size: 1em;
   padding: 0.5em 0.5em;
@@ -779,22 +783,24 @@ input[type=submit]:active {
 
   .tag-mobile {
     background: #ebf0ee;
-    font-family: Inter, sans-serif;
+    color: #3a4a42;
+    padding: 1.2em 1em 2.5em 1em;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 0.75em;
     line-height: 1em;
     letter-spacing: 0.03em;
-    color: #344563;
-    border-radius: 0.5em;
+    border-radius: 0.25em;
   }
 
   .popup-detail {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 60px;
-    grid-template-rows: 60px 50% 1fr 60px 1fr;
+    grid-template-rows: 10% 70% 1fr 60px 1fr;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 5px;
+    overflow-y: scroll;
   }
 
   .btn-close-details {
@@ -816,6 +822,8 @@ input[type=submit]:active {
     box-sizing: border-box;
     border-radius: 16px;
     content: url("./images/desktoppopupbk.svg");
+    max-height: fit-content;
+    max-width: fit-content;
   }
 
   .work-title-mobile {
