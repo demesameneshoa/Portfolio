@@ -126,7 +126,6 @@ for (let i = 0; i < myWorksdetail.length; i += 1) {
   myWorks.innerHTML += work;
 }
 
-
 const popupDiv = (index) => `
 
  <section class="popup-detail">
