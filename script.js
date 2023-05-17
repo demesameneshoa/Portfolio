@@ -125,3 +125,54 @@ for (let i = 0; i < myWorksdetail.length; i += 1) {
   const work = createMyWorksList(myWorksdetail[i]);
   myWorks.innerHTML += work;
 }
+
+
+const popupDiv = (index) => `
+
+ <section class="popup-detail">
+          <button type="button" class="icon btn-close-pop-up">
+              <img class="icon" src="./images/icons/cancel-menu.svg" alt="cancel icon">
+          </button>
+          <div class="work-image-details">
+          <img src=${myWorksdetail[index].url} alt ='${myWorksdetail[index].alt}'>
+          </div>
+          <h2 class="work-title-mobile">
+              ${myWorksdetail[index].title}
+          </h2>
+          <ul class="work-tags-mobile">
+              <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt1}</li>
+              <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt2}</li>
+              <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt3}</li>
+          <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt4}</li>
+          </ul>
+          <p class="work-discription-mobile">
+        ${myWorksdetail[index].desc}
+          </p>
+          <div class="work-button-mobile">
+                  <a href=${myWorksdetail[index].linkVersion} class="work-detail-btn-mobile">
+                  See Live
+                  <img src="./images/icons/showlive-icon.svg" class="icon" alt="live icon">
+                  </a>
+                  <a href=${myWorksdetail[index].linkSource} class="work-detail-btn-mobile">
+                  See Sources
+                  <img src="./images/icons/git-hub.svg" class="icon" alt="github icon">
+                  </a>
+          </div>
+          <script src="java_script.js"></script>
+  </section>
+
+`;
+
+const popupBtn = document.querySelectorAll('.pop-up');
+for (let i = 0; i < popupBtn.length; i += 1) {
+  popupBtn[i].addEventListener('click', () => {
+    const myWork = document.createElement('div');
+    myWork.classList.add('pop-up-bk');
+    myWork.innerHTML = popupDiv(i);
+    document.body.appendChild(myWork);
+    const closePopupBtn = document.querySelector('.btn-close-pop-up');
+    closePopupBtn.addEventListener('click', () => {
+      document.body.removeChild(myWork);
+    });
+  });
+}
