@@ -174,3 +174,17 @@ for (let i = 0; i < popupBtn.length; i += 1) {
     });
   });
 }
+const contactForm = document.getElementById('contact-form');
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const email = document.getElementById('email-address').value;
+  const errorMessage = document.querySelector('.form-response');
+
+  if (email.toLowerCase() === email) {
+    errorMessage.innerText = '';
+    contactForm.submit();
+  } else {
+    errorMessage.innerText = 'Error: Email address must be in lowercase.';
+  }
+});

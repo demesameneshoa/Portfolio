@@ -62,6 +62,8 @@ HTML,CSS and Flexbox
 - **[Desktop Version]**
 - **[Responsive web design applied]**
 - **[Mobile menu added]**
+- **[Mobile and desktop pop up screens added]**
+- **[Client form validation by javascript appied]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,8 +122,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Project Popup
-- [ ] Form Validation with JavaScript
+- [ ] Including Additional Responsiveness Screen BreakPoints
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
