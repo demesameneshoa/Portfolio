@@ -188,3 +188,50 @@ contactForm.addEventListener('submit', (event) => {
     errorMessage.innerText = 'Error: Email address must be in lowercase.';
   }
 });
+
+// Local Storage//
+// Variable Declaration
+const nameInput = document.getElementById('full-name');
+const emailInput = document.getElementById('email-address');
+const messageInput = document.getElementById('message');
+
+// add event listeners to each input field to save data to local storage
+nameInput.addEventListener('change', () => {
+  localStorage.setItem('contactData', JSON.stringify({
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  }));
+});
+
+emailInput.addEventListener('change', () => {
+  localStorage.setItem('contactData', JSON.stringify({
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  }));
+});
+
+messageInput.addEventListener('change', () => {
+  localStorage.setItem('contactData', JSON.stringify({
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  }));
+});
+
+// pre-fill the form with any saved data from local storage
+const contactData = JSON.parse(localStorage.getItem('contactData'));
+if (contactData) {
+  nameInput.value = contactData.name;
+  emailInput.value = contactData.email;
+  messageInput.value = contactData.message;
+}
+
+// JavaScript object with all the data from the form
+const formData = {
+  name: nameInput.value,
+  email: emailInput.value,
+  message: messageInput.value,
+};
+localStorage.setItem('contactFormData', JSON.stringify(formData));
