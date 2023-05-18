@@ -64,6 +64,7 @@ HTML,CSS and Flexbox
 - **[Mobile menu added]**
 - **[Mobile and desktop pop up screens added]**
 - **[Client form validation by javascript appied]**
+- **[JavaScript Local Storage of Contact for Applied ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
