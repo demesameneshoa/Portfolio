@@ -166,7 +166,7 @@ for (let i = 0; i < popupBtn.length; i += 1) {
   popupBtn[i].addEventListener('click', () => {
     const myWork = document.createElement('div');
     myWork.classList.add('pop-up-bk');
-    myWork.innerHTML = popupDiv(i);
+    myWork.innerHTML = poppupDiv(i);
     document.body.appendChild(myWork);
     const closePopupBtn = document.querySelector('.btn-close-pop-up');
     closePopupBtn.addEventListener('click', () => {

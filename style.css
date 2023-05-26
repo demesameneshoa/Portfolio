@@ -575,27 +575,7 @@ li.tag-mobile {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .mob-nav-menu {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    left: -200%;
-    margin-top: 50px;
-    padding-top: 1.5em;
-    padding-left: 1em;
-    flex-direction: column;
-    background-color: white;
-    width: 90vw;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 10px;
-    transition: 0.3s;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    mix-blend-mode: normal;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  }
+  
 
   .mob-nav-item {
     margin: 16px 0;
