@@ -13,24 +13,24 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 const myWorksdetail = [
   {
     id: 0,
-    url: './images/placeholder.png',
-    alt: 'Project preview image',
-    title: 'Keeping track of hundreds of components',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    url: './images/todolist.png',
+    alt: 'Todo List Project Screen Shot',
+    title: 'To-Do List',
+    desc: 'This app can manage your daily list of To Do tasks. Adding, Reading, Updating, Deleting tasks is deployed. Data is stored in Local storage and the app is built using webpack and served by a webpack dev server',
     tecnologies: {
-      opt1: 'Ruby on Rails',
+      opt1: 'HTML',
       opt2: 'CSS',
       opt3: 'JavaScript',
-      opt4: 'HTML',
+      opt4: 'WebPack',
     },
-    linkVersion: '#',
-    linkSource: '#',
+    linkVersion: 'https://demesameneshoa.github.io/to-do-list/',
+    linkSource: 'https://github.com/demesameneshoa/to-do-list',
   },
   {
     id: 1,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Keeping track of hundreds of components',
+    title: 'Keeping track of hundreds',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -45,7 +45,7 @@ const myWorksdetail = [
     id: 2,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Keeping track of hundreds of components',
+    title: 'Keeping track of hundreds',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -60,7 +60,7 @@ const myWorksdetail = [
     id: 3,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Keeping track of hundreds of components',
+    title: 'Keeping track of hundreds',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -75,7 +75,7 @@ const myWorksdetail = [
     id: 4,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Keeping track of hundreds of components',
+    title: 'Keeping track of hundreds',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -90,7 +90,7 @@ const myWorksdetail = [
     id: 5,
     url: './images/placeholder.png',
     alt: 'Project preview image',
-    title: 'Keeping track of hundreds of components',
+    title: 'Keeping track of hundreds',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     tecnologies: {
       opt1: 'Ruby on Rails',
@@ -107,7 +107,7 @@ function createMyWorksList(myWorksdetail) {
   const myWorksList = `
       <div class="myworks-card">
         <div class="myworks-thumbnail">
-        <img alt>
+        <img src=${myWorksdetail.url}>
         <h3 class="work-title">${myWorksdetail.title}</h3>
         <ul class="work-languages" >
           <li>${myWorksdetail.tecnologies.opt1}</li>
@@ -142,6 +142,7 @@ const popupDiv = (index) => `
               <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt1}</li>
               <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt2}</li>
               <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt3}</li>
+              <li class="tag-mobile">${myWorksdetail[index].tecnologies.opt4}</li>
           </ul>
           <p class="work-discription-mobile">
         ${myWorksdetail[index].desc}
