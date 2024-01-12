@@ -28,7 +28,7 @@ const myWorksdetail = [
   },
   {
     id: 1,
-    url: './images/budgetapp.png',
+    url: './images/budgetapp2.png',
     alt: 'budget app image',
     title: 'Keeping track of your expenses',
     desc: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
