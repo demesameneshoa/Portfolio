@@ -43,7 +43,7 @@ const myWorksdetail = [
   },
   {
     id: 2,
-    url: './images/tesla booking.png',
+    url: './images/teslabooking.png',
     alt: 'Book a tesla ride',
     title: 'Book a tesla ride',
     desc: 'Book your ideal Tesla model effortlessly with our new Tesla vehicle booking app! Enjoy daily rates on our five available models, available in cities worldwide. Experience the best service in the industry.',
